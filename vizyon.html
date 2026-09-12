@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr" data-i18n-title="vizyon.title">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vizyonumuz | Inexway</title>
+<meta name="description" content="Inexway'in vizyonu: eğitim danışmanlığı ve şirket kurulum süreçlerini, her adımı önceden bilinen, denetlenebilir bir yapıya taşımak.">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:title" content="Vizyonumuz | Inexway">
+<meta property="og:description" content="Sınır ötesi kararları, tahmin edilebilir ve denetlenebilir bir sürece dönüştürüyoruz.">
+<!-- TODO: müşteriden teyit alınacak — kalıcı alan adı ve paylaşım görseli -->
+<meta property="og:url" content="https://www.inexway.com/vizyon.html">
+<meta property="og:image" content="https://www.inexway.com/assets/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#icerik" data-i18n="nav.skipLink">İçeriğe geç</a>
+
+<header class="site-header" id="site-header">
+  <div class="container site-header__bar">
+    <a class="site-logo" href="index.html">
+      <img class="site-logo__img" src="assets/logo.png" alt="Inexway HR Solutions">
+    </a>
+
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+      <span class="visually-hidden" data-i18n="nav.menuToggle">Menüyü aç</span>
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Ana menü">
+      <ul>
+        <li><a href="sirket-kurulumu.html" data-i18n="nav.sirket">Şirket Kurulumu</a></li>
+        <li><a href="legalizasyon.html" data-i18n="nav.legalizasyon">Legalizasyon</a></li>
+        <li><a href="egitim.html" data-i18n="nav.egitim">Yurt Dışı Eğitim</a></li>
+        <li class="nav-dropdown">
+          <button type="button" class="nav-dropdown__toggle" aria-haspopup="true" aria-expanded="false">
+            <span data-i18n="nav.yatirim">Yatırım Danışmanlığı</span><span class="nav-dropdown__caret" aria-hidden="true">▾</span>
+          </button>
+          <ul class="nav-dropdown__menu" hidden>
+            <li><a href="yatirim-danismanligi.html" data-i18n="nav.yatirim">Yatırım Danışmanlığı</a></li>
+            <li><a href="gayrimenkul-danismanligi.html" data-i18n="nav.gayrimenkul">Gayrimenkul Danışmanlığı</a></li>
+          </ul>
+        </li>
+        <li><a href="vizyon.html" aria-current="page" data-i18n="nav.vizyon">Vizyonumuz</a></li>
+        <li><a href="iletisim.html" data-i18n="nav.iletisim">İletişim</a></li>
+        <li class="lang-switch" id="lang-switch">
+          <button type="button" class="lang-switch__toggle" id="lang-switch-toggle" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-switch-menu" aria-label="Dil seçimi, şu anki dil: Türkçe">
+            <span class="lang-switch__flag" id="lang-switch-flag" aria-hidden="true">🇹🇷</span>
+          </button>
+          <ul class="lang-switch__menu" id="lang-switch-menu" role="listbox" hidden></ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="side-flag-anchor">
+  <div class="side-flag" aria-hidden="true">
+    <img class="side-flag__img" src="assets/eu-flag.svg" alt="">
+  </div>
+</div>
+
+<main id="icerik">
+
+  <section class="page-hero">
+    <span class="page-hero__art" aria-hidden="true" data-parallax data-parallax-speed="0.18">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m14.5 9.5-2 5-5 2 2-5 5-2Z"/></svg>
+    </span>
+    <div class="container page-hero__inner">
+      <a class="page-hero__crumb" href="index.html">Inexway</a>
+      <div class="page-hero__rule" aria-hidden="true"></div>
+      <h1 data-i18n="vizyon.heroH1">Vizyonumuz</h1>
+      <p class="page-hero__lead" data-i18n="vizyon.heroLead">Sınır ötesi kararları, tahmin edilebilir ve denetlenebilir bir sürece dönüştürüyoruz.</p>
+    </div>
+  </section>
+
+  <section class="statement">
+    <div class="container statement__inner">
+      <p class="statement__eyebrow" data-i18n="vizyon.statementEyebrow">Vizyonumuz</p>
+      <div class="statement__rule" aria-hidden="true"></div>
+      <h2 class="statement__headline" data-i18n="vizyon.statementHeadline">Sınırlar, hayallerin önünde durmasın.</h2>
+      <p class="statement__lead" data-i18n="vizyon.statementLead">Eğitimden şirket kurulumuna, legalizasyondan yatırıma kadar; yurt dışına açılan her adımı netlik, güven ve tek bir sorumlulukla yürüyen bir yolculuğa dönüştürüyoruz.</p>
+      <p class="statement__lead" data-i18n="vizyon.statementSupport">Bugün beş alanda hizmet veriyoruz; yarın, sınır tanımayan her hedefe aynı güvenle eşlik etmeyi hedefliyoruz.</p>
+      <p class="statement__tags" data-i18n="vizyon.statementTags">Netlik · Güven · Süreklilik</p>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container about__grid">
+      <div class="about__label">
+        <span class="about__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m14.5 9.5-2 5-5 2 2-5 5-2Z"/></svg>
+        </span>
+        <h2 data-i18n="vizyon.aboutLabel">Neyi hedefliyoruz</h2>
+      </div>
+      <div class="about__body">
+        <p data-i18n="vizyon.bodyP1">Sınırlar arasında hareket etmek, iyi tasarlanmış bir süreçle önemli ölçüde basitleşir. Inexway olarak hedefimiz; eğitim danışmanlığından şirket kurulumuna, legalizasyondan yatırım ve gayrimenkul danışmanlığına kadar beş alanı, aynı çatı altında, baştan sona takip edilebilir tek bir hizmet standardında sunmaya devam etmek.</p>
+        <p data-i18n="vizyon.bodyP2">Sürecin her adımını danışanın önceden görebildiği, sürprizsiz bir yapıya taşımak; çalışma biçimimizin merkezinde yer alıyor.</p>
+        <p data-i18n="vizyon.bodyP3">Hangi alanda olursa olsun aynı disiplinle ilerleriz: önce süreci netleştirir, sonra ölçülebilir adımlara ayırır, danışanımızın her aşamada nerede olduğunu bilmesini sağlarız.</p>
+      </div>
+      <ol class="about__steps">
+        <li>
+          <span class="about__steps-title" data-i18n="vizyon.step1Title">Süreç görünürlüğü</span>
+          <span class="about__steps-desc" data-i18n="vizyon.step1Desc">Hangi adımın ne zaman geleceğini, dosya açıldığı andan itibaren bilirsiniz.</span>
+        </li>
+        <li>
+          <span class="about__steps-title" data-i18n="vizyon.step2Title">Tek sorumluluk noktası</span>
+          <span class="about__steps-desc" data-i18n="vizyon.step2Desc">Eğitim ya da şirket kurulumu fark etmeksizin, dosyanızdan tek bir danışman sorumludur.</span>
+        </li>
+        <li>
+          <span class="about__steps-title" data-i18n="vizyon.step3Title">Ölçülebilir ilerleme</span>
+          <span class="about__steps-desc" data-i18n="vizyon.step3Desc">Her aşamanın tamamlanma kriteri nettir; bir sonraki adıma ne zaman geçildiği bellidir.</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="vision">
+    <div class="container vision__grid">
+      <div class="vision__copy">
+        <h2 data-i18n="vizyon.missionLabel">Misyonumuz</h2>
+        <p class="vision__text" data-i18n="vizyon.missionP1">Yurt dışına açılan her adımı, danışanımız adına baştan sona biz yürütüyoruz.</p>
+        <p class="vision__text" data-i18n="vizyon.missionP2">Eğitim, şirket kurulumu, legalizasyon, yatırım ve gayrimenkul süreçlerinde; net bilgi, sabit sıra ve tek sorumlu danışmanla ilerliyoruz.</p>
+        <ul class="vision__list">
+          <li data-i18n="vizyon.missionCommit1">Her dosyaya aynı titizlikle yaklaşırız — büyüklüğü ya da alanı fark etmeksizin.</li>
+          <li data-i18n="vizyon.missionCommit2">Sürecin her adımını önceden bilmenizi sağlarız, sürpriz adım eklemeyiz.</li>
+          <li data-i18n="vizyon.missionCommit3">Süreç bitene kadar aynı danışman dosyanızın başında kalır.</li>
+        </ul>
+      </div>
+      <div class="vision__visual" aria-hidden="true">
+        <span class="icon-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20 9 13 13 16 20 6"/><path d="M14 6h6v6"/></svg>
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" aria-label="Görüşme çağrısı">
+    <div class="container cta-band__inner">
+      <div>
+        <h2 data-i18n="vizyon.ctaHeading">Çalışma biçimimizi konuşalım</h2>
+        <p data-i18n="vizyon.ctaDesc">Sürecin sizin için nasıl işleyeceğini, ilk görüşmede somut adımlarla anlatalım.</p>
+      </div>
+      <a class="button button--on-blue" href="iletisim.html" data-i18n="common.ctaButton">Görüşme talebi gönderin</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer" id="site-footer">
+  <div class="container site-footer__grid">
+    <div class="site-footer__brand">
+      <div class="site-logo site-logo--footer">
+        <img class="site-logo__img" src="assets/logo.png" alt="Inexway HR Solutions">
+      </div>
+      <p class="site-footer__legal-line" data-i18n="footer.legalLine">Inexway HR Solutions Sp. z o.o. · KRS 0001045175 · NIP 5242977244 · REGON 525757633</p>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 data-i18n="footer.servicesHeading">Hizmetler</h3>
+      <ul>
+        <li><a href="egitim.html" data-i18n="footer.egitim">Yurt dışı eğitim danışmanlığı</a></li>
+        <li><a href="sirket-kurulumu.html" data-i18n="footer.sirket">Şirket kurulumu</a></li>
+        <li><a href="legalizasyon.html" data-i18n="footer.legalizasyon">Legalizasyon</a></li>
+        <li><a href="yatirim-danismanligi.html" data-i18n="footer.yatirim">Yatırım danışmanlığı</a></li>
+        <li><a href="gayrimenkul-danismanligi.html" data-i18n="footer.gayrimenkul">Gayrimenkul danışmanlığı</a></li>
+        <li><a href="vizyon.html" data-i18n="footer.vizyon">Vizyonumuz</a></li>
+      </ul>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 data-i18n="footer.mapHeading">Konum</h3>
+      <iframe class="site-footer__map-frame" src="https://www.google.com/maps?q=Inexway+HR+Solutions%2C+Marsza%C5%82kowska+126%2F134%2C+Warszawa&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Inexway HR Solutions ofis konumu"></iframe>
+      <a class="site-footer__map-link" href="https://www.google.com/maps/search/?api=1&query=Inexway+HR+Solutions%2C+Marsza%C5%82kowska+126%2F134%2C+Warszawa" target="_blank" rel="noopener" data-i18n="footer.mapOpenLink">Haritada aç</a>
+    </div>
+
+    <div class="site-footer__col">
+      <h3 data-i18n="footer.contactHeading">İletişim</h3>
+      <ul>
+        <li><a href="https://wa.me/48578640306" target="_blank" rel="noopener" data-i18n="footer.phone">+48 578 640 306 (WhatsApp)</a></li>
+        <li><a href="mailto:inexwayhr@gmail.com" data-i18n="footer.email">inexwayhr@gmail.com</a></li>
+        <li><a href="https://www.google.com/maps/search/?api=1&query=Inexway+HR+Solutions%2C+Marsza%C5%82kowska+126%2F134%2C+Warszawa" target="_blank" rel="noopener" data-i18n="footer.address">Inexway HR Solutions, Marszałkowska 126/134, Suite 277, 00-008 Warszawa</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container site-footer__bottom">
+    <p data-i18n="footer.copyright">© 2026 Inexway. Tüm hakları saklıdır.</p>
+    <ul class="site-footer__legal-links">
+      <li><a href="gizlilik-politikasi.html" data-i18n="footer.privacyPolicy">Gizlilik Politikası (KVKK/RODO)</a></li>
+      <li><button type="button" class="site-footer__cookie-btn" data-cookie-settings data-i18n="footer.cookieSettings">Çerez Tercihleri</button></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="i18n.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
