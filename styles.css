@@ -208,6 +208,12 @@ h3 { font-size: var(--fs-500); font-weight: 600; }
   padding-block: var(--space-4);
 }
 
+.nav-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -219,6 +225,7 @@ h3 { font-size: var(--fs-500); font-weight: 600; }
   border: var(--border);
   border-radius: var(--radius-sm);
   cursor: pointer;
+  flex-shrink: 0;
 }
 .nav-toggle__bar {
   display: block;

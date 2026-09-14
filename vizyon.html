@@ -35,13 +35,7 @@
       <img class="site-logo__img" src="assets/logo.png" alt="Inexway HR Solutions">
     </a>
 
-    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-      <span class="nav-toggle__bar"></span>
-      <span class="nav-toggle__bar"></span>
-      <span class="nav-toggle__bar"></span>
-      <span class="visually-hidden" data-i18n="nav.menuToggle">Menüyü aç</span>
-    </button>
-
+    <div class="nav-controls">
     <nav class="primary-nav" id="primary-nav" aria-label="Ana menü">
       <ul>
         <li><a href="sirket-kurulumu.html" data-i18n="nav.sirket">Şirket Kurulumu</a></li>
@@ -58,14 +52,23 @@
         </li>
         <li><a href="vizyon.html" aria-current="page" data-i18n="nav.vizyon">Vizyonumuz</a></li>
         <li><a href="iletisim.html" data-i18n="nav.iletisim">İletişim</a></li>
-        <li class="lang-switch" id="lang-switch">
-          <button type="button" class="lang-switch__toggle" id="lang-switch-toggle" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-switch-menu" aria-label="Dil seçimi, şu anki dil: Türkçe">
-            <span class="lang-switch__flag" id="lang-switch-flag" aria-hidden="true">🇹🇷</span>
-          </button>
-          <ul class="lang-switch__menu" id="lang-switch-menu" role="listbox" hidden></ul>
-        </li>
       </ul>
     </nav>
+
+      <div class="lang-switch" id="lang-switch">
+        <button type="button" class="lang-switch__toggle" id="lang-switch-toggle" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-switch-menu" aria-label="Dil seçimi, şu anki dil: Türkçe">
+          <span class="lang-switch__flag" id="lang-switch-flag" aria-hidden="true">🇹🇷</span>
+        </button>
+        <ul class="lang-switch__menu" id="lang-switch-menu" role="listbox" hidden></ul>
+      </div>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="visually-hidden" data-i18n="nav.menuToggle">Menüyü aç</span>
+      </button>
+    </div>
   </div>
 </header>
 
