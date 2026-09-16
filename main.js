@@ -278,7 +278,7 @@
 
     var link = document.createElement("a");
     link.className = "cookie-banner__link";
-    link.href = "gizlilik-politikasi.html#cerezler";
+    link.href = "gizlilik-politikasi#cerezler";
     link.setAttribute("data-i18n", "cookie.policyLinkText");
     link.textContent = t("cookie.policyLinkText");
     text.appendChild(document.createTextNode(" "));

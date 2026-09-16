@@ -6,42 +6,42 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/egitim.html</loc>
+    <loc>https://www.inexway.com/egitim</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/sirket-kurulumu.html</loc>
+    <loc>https://www.inexway.com/sirket-kurulumu</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/legalizasyon.html</loc>
+    <loc>https://www.inexway.com/legalizasyon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/yatirim-danismanligi.html</loc>
+    <loc>https://www.inexway.com/yatirim-danismanligi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/gayrimenkul-danismanligi.html</loc>
+    <loc>https://www.inexway.com/gayrimenkul-danismanligi</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/vizyon.html</loc>
+    <loc>https://www.inexway.com/vizyon</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/iletisim.html</loc>
+    <loc>https://www.inexway.com/iletisim</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.inexway.com/gizlilik-politikasi.html</loc>
+    <loc>https://www.inexway.com/gizlilik-politikasi</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
